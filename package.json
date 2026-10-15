@@ -1,0 +1,22 @@
+{
+  "name": "the-grimoire",
+  "version": "1.0.0",
+  "description": "A dark-fantasy personal quest and knowledge management system. Zero dependencies, no build step.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test 'test/*.test.js'",
+    "start": "node server.js",
+    "serve": "python3 -m http.server 8080"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "productivity",
+    "tasks",
+    "vanilla-js",
+    "offline-first"
+  ],
+  "license": "MIT"
+}
